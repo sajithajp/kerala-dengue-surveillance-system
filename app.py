@@ -16,9 +16,9 @@ st.markdown("An end-to-end Epidemiological Data Science Platform designed for di
 @st.cache_data
 def load_data():
     df_ts = pd.read_csv(
-        'D:/Article/Dengue/dengue-forecasting-app/dengue_monthly_time_series.csv')
+        'dengue_monthly_time_series.csv')
     df_dist = pd.read_csv(
-        'D:/Article/Dengue/dengue-forecasting-app/dengue_district_annual.csv')
+        'dengue_district_annual.csv')
     return df_ts, df_dist
 
 
